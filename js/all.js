@@ -18,6 +18,7 @@ var obj = {
                 vm.data.products = res.data.data;
                 vm.render();
             })
+            .catch((err) => { console.error(err) })
     },
 
     // 渲染頁面
